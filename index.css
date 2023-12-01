@@ -328,7 +328,8 @@ nav > .hamburger-icon {
 .creators-section {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .creators-section-header {
@@ -550,6 +551,67 @@ nav > .hamburger-icon {
   line-height: 140%;
 }
 
+.categories-section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.categories-section > h1 {
+  border: 1px solid red;
+  margin-bottom: 40px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.categories-samples {
+  border: 2px solid yellow;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.categories-samples > .categories-samples-item {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 30px;
+  min-height: 260px;
+  box-sizing: border-box;
+}
+
+.categories-samples > .categories-samples-item > img {
+  object-fit: cover;
+  height: 240px;
+  max-width: 100%;
+  margin: 0;
+  max-height: 100%;
+}
+
+.categories-samples > .categories-samples-item > span {
+  display: flex;
+  padding: 20px 30px 25px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  margin: 0;
+  font-weight: 600;
+  border-radius: 0px 0px 20px 20px;
+  background: #3b3b3b;
+}
+
 @media (max-width: 1100px) {
   .sub-banner-images-options > img {
     object-fit: cover;
@@ -645,6 +707,11 @@ nav > .hamburger-icon {
     font-size: 16px;
   }
 
+  .creators-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   .creators-section-header > .left-header > h1 {
     font-size: 28px;
   }
@@ -655,6 +722,10 @@ nav > .hamburger-icon {
 
   .dsktp-creator-items-row {
     display: none;
+  }
+
+  .categories-section > h1 {
+    font-size: 28px;
   }
 }
 
@@ -705,6 +776,10 @@ nav > .hamburger-icon {
     width: 50px;
     height: 50px;
     border-radius: 10px;
+  }
+
+  .categories-samples > .categories-samples-item {
+    width: 48%;
   }
 }
 
@@ -859,6 +934,14 @@ nav > .hamburger-icon {
 
   .banner-text-section > p {
     font-size: 22px;
+  }
+
+  .sub-banner-images-options > img {
+    height: 100px;
+  }
+
+  .sub-banner-images-options > span {
+    height: 100px;
   }
 }
 
