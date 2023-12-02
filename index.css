@@ -136,6 +136,8 @@ ul {
   margin-bottom: 30px;
   font-size: 16px;
   font-style: normal;
+  border: 1px solid #a259ff;
+  box-sizing: border-box;
   font-weight: 600;
 }
 
@@ -603,6 +605,7 @@ nav > .hamburger-icon {
   color: #fff;
   font-family: Work Sans;
   font-size: 22px;
+  height: 87px;
   font-style: normal;
   margin: 0;
   font-weight: 600;
@@ -858,6 +861,7 @@ footer {
 
   .categories-samples > .categories-samples-item > span {
     font-size: 16px;
+    border: 2px solid red;
   }
 }
 
