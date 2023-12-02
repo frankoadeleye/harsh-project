@@ -554,13 +554,11 @@ nav > .hamburger-icon {
 .categories-section {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .categories-section > h1 {
-  border: 1px solid red;
   margin-bottom: 40px;
   color: #fff;
   font-family: Work Sans;
@@ -570,7 +568,6 @@ nav > .hamburger-icon {
 }
 
 .categories-samples {
-  border: 2px solid yellow;
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
@@ -593,6 +590,7 @@ nav > .hamburger-icon {
   height: 240px;
   max-width: 100%;
   margin: 0;
+  border-radius: 20px 20px 0px 0px;
   max-height: 100%;
 }
 
@@ -610,6 +608,132 @@ nav > .hamburger-icon {
   font-weight: 600;
   border-radius: 0px 0px 20px 20px;
   background: #3b3b3b;
+}
+
+footer {
+  padding: 40px 80px;
+  background: #3b3b3b;
+}
+
+.footer-sections-wrap {
+  padding: 0px 25px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.footer-sections-wrap > .logo-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-sections-wrap > .logo-section > .logo {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.footer-sections-wrap > .logo {
+  margin-bottom: 30px;
+}
+
+.footer-sections-wrap > .logo-section > .nft-footer {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #ccc;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 238px;
+}
+
+.footer-sections-wrap > .logo-section > .join-footer-logo-sec {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-style: normal;
+  color: #ccc;
+  font-weight: 400;
+}
+
+.footer-sections-wrap > .logo-section > span:last-child {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-sections-wrap > .logo-section > span:last-child > img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.explore-section,
+.join-section {
+  display: flex;
+  margin-top: 0px;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: relative;
+  top: -5px;
+}
+
+.explore-section > h3 {
+  font-family: Space Mono;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.explore-section > ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.explore-section > ul > li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-style: normal;
+  color: #ccc;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.explore-section > ul > li:first-child,
+.explore-section > ul > li:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.footer-sections-wrap > .join-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+.footer-sections-wrap > .join-section > ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-sections-wrap > .join-section > h3 {
+  font-family: Space Mono;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.footer-sections-wrap > .join-section > ul > li {
+  color: #ccc;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: default;
 }
 
 @media (max-width: 1100px) {
@@ -694,6 +818,10 @@ nav > .hamburger-icon {
     height: 70px;
   }
 
+  .categories-samples > .categories-samples-item > img {
+    height: 142px;
+  }
+
   .sub-banner-images-options > span {
     width: 70px;
     height: 70px;
@@ -726,6 +854,10 @@ nav > .hamburger-icon {
 
   .categories-section > h1 {
     font-size: 28px;
+  }
+
+  .categories-samples > .categories-samples-item > span {
+    font-size: 16px;
   }
 }
 
@@ -834,6 +966,10 @@ nav > .hamburger-icon {
     padding: 80px 30px;
   }
 
+  footer {
+    padding: 40px 30px;
+  }
+
   nav {
     padding: 20px 30px;
   }
@@ -913,6 +1049,10 @@ nav > .hamburger-icon {
     padding: 80px 20px;
   }
 
+  footer {
+    padding: 40px 20px;
+  }
+
   nav {
     padding: 20px 20px;
   }
@@ -925,6 +1065,10 @@ nav > .hamburger-icon {
 
   .sections-wrapper {
     padding: 80px 12%;
+  }
+
+  footer {
+    padding: 40px 12%;
   }
 
   .banner-text-section > h1 {
@@ -957,6 +1101,10 @@ nav > .hamburger-icon {
   .sections-wrapper {
     padding: 80px 18%;
   }
+
+  footer {
+    padding: 40px 18%;
+  }
 }
 
 @media (min-width: 2600px) {
@@ -966,6 +1114,10 @@ nav > .hamburger-icon {
 
   .sections-wrapper {
     padding: 80px 22%;
+  }
+
+  footer {
+    padding: 40px 22%;
   }
 
   .dsktp-creator-items-row > .creator-item > img {
